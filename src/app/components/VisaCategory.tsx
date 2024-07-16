@@ -1,5 +1,8 @@
 import React from 'react'
 import myimage from "../../../Provided Images/img (10).png";
+import img1 from "../../../Provided Images/img (11).png";
+import img2 from "../../../Provided Images/img (12).png";
+import img4 from "../../../Provided Images/img (13).png";
 const VisaCategory = () => {
   return (
 <>
