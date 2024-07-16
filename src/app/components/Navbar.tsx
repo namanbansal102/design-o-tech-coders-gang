@@ -1,11 +1,11 @@
 import React from 'react'
-import logo from "../../../Provided Images/Flags/india.png"
+import logo from "../../../Provided Images/ca_Chartered_Accountants_new_logo.png"
 
 const Navbar = () => {
   return (
     <div className='mynav w-full relative z-50 h-12 flex items-center justify-evenly'>
         <div className="right-section">
-            <img src={logo.src} alt="" className='border-2 border-black h-8' />
+            <img src={logo.src} alt="" className='h-16 w-20 mt-4 rounded-lg' />
         </div>
         <div className="middle-section text-sm">
             <ul className=' flex  gap-11 font-bold text-blue-600 '>
