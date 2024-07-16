@@ -36,30 +36,24 @@ const Countries = () => {
             <img className='h-[25vh] w-24 pt-5 rounded-lg' src={australia.src} alt="" />
             <button className='bg-white text-black p-2 bg-gradient-to-r  rounded-lg text-sm mb-1 text-blue-400 font-bold'>Australia</button>
         </div>
-        <div className="country-card  items-center gap-3 justify-center flex-col h-[30vh] w-[13vw] flex  bg-transparent rounded-md hover:scale-105 duration-300">
-            <img className='h-[25vh] w-24 pt-5 rounded-lg' src={bahamas.src} alt="" />
-            <button className='bg-white text-black p-2 bg-gradient-to-r  rounded-lg text-sm mb-1'>Bahamas</button>
-        </div>
-        <div className="country-card  items-center gap-3 justify-center flex-col h-[30vh] w-[13vw] flex  bg-transparent rounded-md hover:scale-105 duration-300">
-            <img className='h-[25vh] w-24 pt-5 rounded-lg' src={barbuda.src} alt="" />
-            <button className='bg-white text-black p-2 bg-gradient-to-r  rounded-lg text-sm mb-1'>Berbuda</button>
-        </div>
-        <div className="country-card  items-center gap-3 justify-center flex-col h-[30vh] w-[13vw] flex  bg-transparent rounded-md hover:scale-105 duration-300">
-            <img className='h-[25vh] w-24 pt-5 rounded-lg' src={belize.src} alt="" />
-            <button className='bg-white text-black p-2 bg-gradient-to-r  rounded-lg text-sm mb-1'>belize</button>
-        </div>
-        <div className="country-card  items-center gap-3 justify-center flex-col h-[30vh] w-[13vw] flex  bg-transparent rounded-md hover:scale-105 duration-300">
-            <img className='h-[25vh] w-24 pt-5 rounded-lg' src={cambodia.src} alt="" />
-            <button className='bg-white text-black p-2 bg-gradient-to-r  rounded-lg text-sm mb-1'>Cambodia</button>
-        </div>
-        <div className="country-card  items-center gap-3 justify-center flex-col h-[30vh] w-[13vw] flex  bg-transparent rounded-md hover:scale-105 duration-300">
+        <div className="country-card border-2   border-blue-400 rounded-xl hover:bg-blue-400 items-center gap-3 justify-center flex-col h-[30vh] w-[13vw] flex  bg-transparent  hover:scale-105 duration-300">
+            <img className='h-[25vh] w-24 pt-5 rounded-lg' src={brazil.src} alt="" />
+            <button className='bg-white text-black p-2 bg-gradient-to-r  rounded-lg text-sm mb-1 text-blue-400 font-bold'>Brazil</button>
+        </div>  <div className="country-card border-2   border-blue-400 rounded-xl hover:bg-blue-400 items-center gap-3 justify-center flex-col h-[30vh] w-[13vw] flex  bg-transparent  hover:scale-105 duration-300">
             <img className='h-[25vh] w-24 pt-5 rounded-lg' src={china.src} alt="" />
-            <button className='bg-white text-black p-2 bg-gradient-to-r  rounded-lg text-sm mb-1'>China</button>
+            <button className='bg-white text-black p-2 bg-gradient-to-r  rounded-lg text-sm mb-1 text-blue-400 font-bold'>China</button>
+        </div>  <div className="country-card border-2   border-blue-400 rounded-xl hover:bg-blue-400 items-center gap-3 justify-center flex-col h-[30vh] w-[13vw] flex  bg-transparent  hover:scale-105 duration-300">
+            <img className='h-[25vh] w-24 pt-5 rounded-lg' src={india.src} alt="" />
+            <button className='bg-white text-black p-2 bg-gradient-to-r  rounded-lg text-sm mb-1 text-blue-400 font-bold'>India</button>
         </div>
-        <div className="country-card  items-center gap-3 justify-center flex-col h-[30vh] w-[13vw] flex  bg-transparent rounded-md hover:scale-105 duration-300">
-            <img className='h-[25vh] w-24 pt-5 rounded-lg' src={croatia.src} alt="" />
-            <button className='bg-white text-black p-2 bg-gradient-to-r  rounded-lg text-sm mb-1'>Crotia</button>
+        <div className="country-card border-2   border-blue-400 rounded-xl hover:bg-blue-400 items-center gap-3 justify-center flex-col h-[30vh] w-[13vw] flex  bg-transparent  hover:scale-105 duration-300">
+            <img className='h-[25vh] w-24 pt-5 rounded-lg' src={denmark.src} alt="" />
+            <button className='bg-white text-black p-2 bg-gradient-to-r  rounded-lg text-sm mb-1 text-blue-400 font-bold'>Denmark</button>
+        </div> <div className="country-card border-2   border-blue-400 rounded-xl hover:bg-blue-400 items-center gap-3 justify-center flex-col h-[30vh] w-[13vw] flex  bg-transparent  hover:scale-105 duration-300">
+            <img className='h-[25vh] w-24 pt-5 rounded-lg' src={fiji.src} alt="" />
+            <button className='bg-white text-black p-2 bg-gradient-to-r  rounded-lg text-sm mb-1 text-blue-400 font-bold'>Fiji</button>
         </div>
+        
         
         </div>
     </div>
